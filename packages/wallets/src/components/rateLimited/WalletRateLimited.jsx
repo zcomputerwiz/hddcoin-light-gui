@@ -13,7 +13,7 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Tooltip } from '@material-ui/core';
 import HelpIcon from '@material-ui/icons/Help';
-import { AlertDialog, Card, Flex, hddcoinToMojo, mojoToHDDcoinLocaleString } from '@hddcoin/core';
+import { AlertDialog, Card, Flex, hddcoinToByte, byteToHDDcoinLocaleString } from '@hddcoin/core';
 import {
   send_transaction,
   rl_set_user_info_action,
@@ -399,7 +399,7 @@ const RLDetailsCard = (props) => {
               <Typography variant="subtitle1">
                 <Trans>
                   Spending Limit (hddcoin per interval):{' '}
-                  {mojoToHDDcoinLocaleString(limit)}
+                  {byteToHDDcoinLocaleString(limit)}
                 </Trans>
               </Typography>
             </Box>
@@ -446,7 +446,7 @@ const RLDetailsCard = (props) => {
               <Typography variant="subtitle1">
                 <Trans>
                   Spending Limit (hddcoin per interval):{' '}
-                  {mojoToHDDcoinLocaleString(limit)}
+                  {byteToHDDcoinLocaleString(limit)}
                 </Trans>
               </Typography>
             </Box>
@@ -511,7 +511,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojoToHDDcoinLocaleString(props.balance)} {currencyCode}
+            {byteToHDDcoinLocaleString(props.balance)} {currencyCode}
           </Typography>
         </Box>
       </Box>
@@ -651,8 +651,8 @@ const SendCard = (props) => {
       );
       return;
     }
-    const amount = hddcoinToMojo(amount_input.value);
-    const fee = hddcoinToMojo(fee_input.value);
+    const amount = hddcoinToByte(amount_input.value);
+    const fee = hddcoinToByte(fee_input.value);
 
     if (address.startsWith('0x') || address.startsWith('0X')) {
       address = address.slice(2);

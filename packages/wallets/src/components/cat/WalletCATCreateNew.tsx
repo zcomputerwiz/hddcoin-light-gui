@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { hddcoinToMojo, AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@hddcoin/core';
+import { hddcoinToByte, AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@hddcoin/core';
 import { Box, Grid } from '@material-ui/core';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router';
@@ -54,12 +54,12 @@ export default function WalletCATCreateNew() {
       }
       */
 
-      const amountMojos = hddcoinToMojo(amount || '0');
-      const feeMojos = hddcoinToMojo(fee || '0');
+      const amountBytes = hddcoinToByte(amount || '0');
+      const feeBytes = hddcoinToByte(fee || '0');
 
 
       /*
-      const response = await dispatch(create_cc_action(amountMojos, feeMojos));
+      const response = await dispatch(create_cc_action(amountBytes, feeBytes));
       if (response && response.data && response.data.success === true) {
         history.push(`/dashboard/wallets/${response.data.wallet_id}`);
       }

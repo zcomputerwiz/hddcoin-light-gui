@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, hddcoinToMojo } from '@hddcoin/core';
+import { AlertDialog, hddcoinToByte } from '@hddcoin/core';
 import {
   Typography,
   Button,
@@ -155,12 +155,12 @@ export const CreateRLAdminWallet = () => {
     dispatch(createState(true, true));
     const interval = interval_input.value;
     const interval_value = Number.parseInt(Number(interval));
-    const hddcoinper = hddcoinToMojo(hddcoinper_input.value);
+    const hddcoinper = hddcoinToByte(hddcoinper_input.value);
     const hddcoinper_value = Number.parseInt(Number(hddcoinper));
     const userpubkey = userpubkey_input.value;
-    const amount = hddcoinToMojo(amount_input.value);
+    const amount = hddcoinToByte(amount_input.value);
     const amount_value = Number.parseInt(Number(amount));
-    // var fee = hddcoinToMojo(fee_input.value);
+    // var fee = hddcoinToByte(fee_input.value);
     // TODO(lipa): send fee to server
     // const fee_value = parseInt(Number(fee));
     dispatch(

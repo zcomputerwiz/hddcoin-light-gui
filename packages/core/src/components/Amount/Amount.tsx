@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core';
 import { useWatch, useFormContext } from 'react-hook-form';
 import TextField, { TextFieldProps } from '../TextField';
-import hddcoinToMojo from '../../utils/hddcoinToMojo';
+import hddcoinToByte from '../../utils/hddcoinToByte';
 import useCurrencyCode from '../../hooks/useCurrencyCode';
 import FormatLargeNumber from '../FormatLargeNumber';
 import Flex from '../Flex';
@@ -40,7 +40,7 @@ function NumberFormatCustom(props: NumberFormatCustomProps) {
 }
 
 export type AmountProps = TextFieldProps & {
-  children?: (props: { mojo: number; value: string | undefined }) => ReactNode;
+  children?: (props: { byte: number; value: string | undefined }) => ReactNode;
   name?: string;
 };
 
@@ -54,7 +54,7 @@ export default function Amount(props: AmountProps) {
     name,
   });
 
-  const mojo = hddcoinToMojo(value);
+  const byte = hddcoinToByte(value);
 
   return (
     <FormControl variant={variant} fullWidth={fullWidth}>
@@ -77,16 +77,16 @@ export default function Amount(props: AmountProps) {
             <Flex flexGrow={1} gap={1}>
               {!!value && (
                 <>
-                  <FormatLargeNumber value={mojo} />
+                  <FormatLargeNumber value={byte} />
                   <Box>
-                    <Plural value={mojo} one="mojo" other="mojos" />
+                    <Plural value={byte} one="byte" other="bytes" />
                   </Box>
                 </>
               )}
             </Flex>
             {children &&
               children({
-                mojo,
+                byte,
                 value,
               })}
           </Flex>

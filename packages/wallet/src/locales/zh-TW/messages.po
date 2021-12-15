@@ -970,7 +970,7 @@ msgstr ""
 #~ msgstr "費用"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (THDD)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1176,16 +1176,16 @@ msgstr ""
 #~ msgstr "加入一個農場"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-#~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
-#~ msgstr "加入農會並獲得持續的 XCH 耕種獎勵。雖然平均報酬一樣但波動較小相對穩定。"
+#~ msgid "Join a pool and get consistent HDD farming rewards. The average returns are the same, but it is much less volatile."
+#~ msgstr "加入農會並獲得持續的 HDD 耕種獎勵。雖然平均報酬一樣但波動較小相對穩定。"
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-#~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-#~ msgstr "加入農會並獲得持續的XCH 耕種獎勵。雖然平均報酬一樣但波動較小相對穩定。分配耕地到農場。你可以更輕鬆的轉換農會而不用重新進行耕地。"
+#~ msgid "Join a pool and get consistent HDD farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+#~ msgstr "加入農會並獲得持續的HDD 耕種獎勵。雖然平均報酬一樣但波動較小相對穩定。分配耕地到農場。你可以更輕鬆的轉換農會而不用重新進行耕地。"
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-#~ msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
-#~ msgstr "加入農會以獲得更多持續性的 XCH 耕種獎勵。建立農場並分配您的新耕地到群組。"
+#~ msgid "Join a pool and get more consistent HDD farming rewards. Create a plot NFT and assign your new plots to a group."
+#~ msgstr "加入農會以獲得更多持續性的 HDD 耕種獎勵。建立農場並分配您的新耕地到群組。"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 #~ msgid "K-Size"
@@ -1467,8 +1467,8 @@ msgstr "否"
 #~ msgstr "沒找到的耕地"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-#~ msgstr "請注意，這不會變更您的農會支付位址。這只會影響舊的耕地格式和 0.25XCH 的農會耕地獎勵。"
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25HDD reward for pooling plots."
+#~ msgstr "請注意，這不會變更您的農會支付位址。這只會影響舊的耕地格式和 0.25HDD 的農會耕地獎勵。"
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
 #: src/components/plotNFT/PlotNFTCard.tsx:160
@@ -2192,8 +2192,8 @@ msgstr ""
 #~ msgstr "正在為自己的農會耕種中"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-#~ msgid "Self pool. When you win a block you will earn XCH rewards."
-#~ msgstr "自己的農會。當你贏取一個區塊時你將獲得 XCH 獎勵。"
+#~ msgid "Self pool. When you win a block you will earn HDD rewards."
+#~ msgstr "自己的農會。當你贏取一個區塊時你將獲得 HDD 獎勵。"
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -2258,8 +2258,8 @@ msgstr ""
 #~ msgstr "跳過新增最終資料夾到收割機進行耕種"
 
 #: src/components/pool/PoolHero.tsx:26
-#~ msgid "Smooth out your XCH farming rewards by joining a pool."
-#~ msgstr "加入農會來獲得穩定的XCH獎勵。"
+#~ msgid "Smooth out your HDD farming rewards by joining a pool."
+#~ msgstr "加入農會來獲得穩定的HDD獎勵。"
 
 #: src/modules/message.js:568
 #: src/modules/message.js:583
@@ -2380,23 +2380,23 @@ msgstr "確認"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "THDD Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "THDD Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "THDD Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "THDD User Fees"
+#~ msgstr "THDD User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "THDD User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2478,8 +2478,8 @@ msgstr "農會網址需要使用https協議. {normalizedUrl}"
 #~ msgstr "在這個區塊的總交易費用。是獎勵給塊農的。"
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-#~ msgstr "這些是關於農夫如何獲得報酬的說明. 正常的狀況下, 這將是一個 XCH 地址, 但它可以設置為小於 1024 個字符的任何字符串，因此它可以代表另一個區塊鏈或支付系統識別碼."
+#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an HDD address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgstr "這些是關於農夫如何獲得報酬的說明. 正常的狀況下, 這將是一個 HDD 地址, 但它可以設置為小於 1024 個字符的任何字符串，因此它可以代表另一個區塊鏈或支付系統識別碼."
 
 #: src/components/plot/PlotsFailed.tsx:40
 #~ msgid "These plots are invalid, you might want to delete them."
@@ -3076,5 +3076,5 @@ msgstr "［錯誤 22］找不到檔案。很有可能你 config.yaml 裡其中�
 #~ msgstr "{currencyCode} 使用者交易費用"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
-#~ msgstr "{mojo, plural, other {mojos}}"
+#~ msgid "{byte, plural, one {byte} other {bytes}}"
+#~ msgstr "{byte, plural, other {bytes}}"

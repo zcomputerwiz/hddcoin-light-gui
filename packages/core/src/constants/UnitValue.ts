@@ -2,7 +2,7 @@ import Unit from './Unit';
 
 const UnitValue = {
   [Unit.HDDCOIN]: 1,
-  [Unit.MOJO]: 1 / 1e12,
+  [Unit.BYTE]: 1 / 1e12,
   [Unit.CAT]: 1 / 1e9,
 };
 

@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import { useGetWalletBalanceQuery } from '@hddcoin/api-react';
 import { TransactionType } from '@hddcoin/api';
 import type { Transaction } from '@hddcoin/api';
-import { mojoToHDDcoin, blockHeightToTimestamp } from '@hddcoin/core';
+import { byteToHDDcoin, blockHeightToTimestamp } from '@hddcoin/core';
 import useWalletTransactions from '../hooks/useWalletTransactions';
 
 /*
@@ -196,8 +196,8 @@ function prepareGraphPoints(
   const points = [
     {
       x: peakTransaction.confirmedAtHeight,
-      y: Math.max(0, Number(mojoToHDDcoin(start))),
-      tooltip: mojoToHDDcoin(balance),
+      y: Math.max(0, Number(byteToHDDcoin(start))),
+      tooltip: byteToHDDcoin(balance),
     },
   ];
 
@@ -208,8 +208,8 @@ function prepareGraphPoints(
 
     points.push({
       x: timestamp,
-      y: Math.max(0, Number(mojoToHDDcoin(start))),
-      tooltip: mojoToHDDcoin(start),
+      y: Math.max(0, Number(byteToHDDcoin(start))),
+      tooltip: byteToHDDcoin(start),
     });
   });
 

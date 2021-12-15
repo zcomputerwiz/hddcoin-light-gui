@@ -12,7 +12,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Backdrop from '@material-ui/core/Backdrop';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import { AlertDialog, Card, Flex, Loading, Dropzone, mojoToHDDcoinLocaleString } from '@hddcoin/core';
+import { AlertDialog, Card, Flex, Loading, Dropzone, byteToHDDcoinLocaleString } from '@hddcoin/core';
 import {
   did_generate_backup_file,
   did_spend,
@@ -612,7 +612,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojoToHDDcoinLocaleString(props.balance)} TXCH
+            {byteToHDDcoinLocaleString(props.balance)} THDD
           </Typography>
         </Box>
       </Box>

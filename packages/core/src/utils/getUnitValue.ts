@@ -13,10 +13,10 @@ const display: {
   [key in Unit]: Display;
 } = {
   hddcoin: {
-    format: '{amount} XCH',
+    format: '{amount} HDD',
     fractionDigits: 12,
   },
-  mojo: {
+  byte: {
     format: '{amount} MJ',
     fractionDigits: 0,
   },

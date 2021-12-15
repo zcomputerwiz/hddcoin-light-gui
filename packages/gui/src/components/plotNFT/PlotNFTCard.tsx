@@ -15,7 +15,7 @@ import {
   Link,
   ConfirmDialog,
   useOpenDialog,
-  mojoToHDDcoinLocaleString,
+  byteToHDDcoinLocaleString,
 } from '@hddcoin/core';
 import {
   Box,
@@ -147,7 +147,7 @@ export default function PlotNFTCard(props: Props) {
       label: <Trans>Unclaimed Rewards</Trans>,
       value: (
         <UnitFormat
-          value={mojoToHDDcoinLocaleString(balance)}
+          value={byteToHDDcoinLocaleString(balance)}
           state={State.SUCCESS}
         />
       ),

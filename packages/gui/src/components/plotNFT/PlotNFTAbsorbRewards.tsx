@@ -11,8 +11,8 @@ import {
   Form,
   FormBackButton,
   State,
-  mojoToHDDcoinLocaleString,
-  hddcoinToMojo,
+  byteToHDDcoinLocaleString,
+  hddcoinToByte,
 } from '@hddcoin/core';
 import { useForm } from 'react-hook-form';
 import { usePwAbsorbRewardsMutation, useGetPlotNFTsQuery } from '@hddcoin/api-react'
@@ -63,7 +63,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
       const walletId = nft?.poolWalletStatus.walletId;
 
       const { fee } = data;
-      const feeMojos = hddcoinToMojo(fee);
+      const feeBytes = hddcoinToByte(fee);
 
 
       if (walletId === undefined) { 
@@ -72,7 +72,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
 
       await pwAbsorbRewards({
         walletId, 
-        fee: feeMojos,
+        fee: feeBytes,
       }).unwrap();
 
       navigate(-1);
@@ -143,7 +143,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
               <Trans>
                 You will recieve{' '}
                 <UnitFormat
-                  value={mojoToHDDcoinLocaleString(balance)}
+                  value={byteToHDDcoinLocaleString(balance)}
                   display="inline"
                   state={State.SUCCESS}
                 />{' '}

@@ -11,8 +11,8 @@ import {
   TextFieldNumber,
   TextField,
   useOpenDialog,
-  hddcoinToMojo,
-  catToMojo,
+  hddcoinToByte,
+  catToByte,
   useIsSimulator,
   useCurrencyCode,
   toBech32m,
@@ -137,8 +137,8 @@ export default function WalletCATSend(props: Props) {
       address = address.slice(2);
     }
 
-    const amountValue = catToMojo(amount);
-    const feeValue = hddcoinToMojo(fee);
+    const amountValue = catToByte(amount);
+    const feeValue = hddcoinToByte(fee);
 
     const memo = data.memo.trim();
     const memos = memo ? [memo] : undefined;

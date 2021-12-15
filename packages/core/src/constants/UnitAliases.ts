@@ -2,8 +2,8 @@ import Unit from './Unit';
 
 // deprecated
 const UnitAliases = {
-  [Unit.HDDCOIN]: ['ch', 'hddcoin', 'xch'],
-  [Unit.MOJO]: ['mj', 'mojo', 'mojos'],
+  [Unit.HDDCOIN]: ['ch', 'hddcoin', 'hdd'],
+  [Unit.BYTE]: ['mj', 'byte', 'bytes'],
   [Unit.CAT]: ['cat', 'cc', 'colouredcoin'],
 };
 

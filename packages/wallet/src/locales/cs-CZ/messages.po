@@ -970,7 +970,7 @@ msgstr ""
 #~ msgstr "Poplatek"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (THDD)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1176,16 +1176,16 @@ msgstr ""
 #~ msgstr "Připojit se k Poolu"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-#~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
-#~ msgstr "Připojte se k Poolu a získejte konzistentní odměnu XCH. Průměrné výnosy jsou stejné, ale mnohem méně volatilní."
+#~ msgid "Join a pool and get consistent HDD farming rewards. The average returns are the same, but it is much less volatile."
+#~ msgstr "Připojte se k Poolu a získejte konzistentní odměnu HDD. Průměrné výnosy jsou stejné, ale mnohem méně volatilní."
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-#~ msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-#~ msgstr "Připojte se ke Poolu a získejte konzistentní odměnu XCH. Průměrné výnosy jsou stejné, ale mnohem méně volatilní. Přiřaďte vykreslování k NFT. Můžete snadno přepínat Pooly, aniž byste museli znovu vykreslovat."
+#~ msgid "Join a pool and get consistent HDD farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+#~ msgstr "Připojte se ke Poolu a získejte konzistentní odměnu HDD. Průměrné výnosy jsou stejné, ale mnohem méně volatilní. Přiřaďte vykreslování k NFT. Můžete snadno přepínat Pooly, aniž byste museli znovu vykreslovat."
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-#~ msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
-#~ msgstr "Připojte se k Poolu a získejte konzistentní farmářskou odměnu XCH. Vytvořte NFT pole a přiřaďte svá nová pole do skupiny."
+#~ msgid "Join a pool and get more consistent HDD farming rewards. Create a plot NFT and assign your new plots to a group."
+#~ msgstr "Připojte se k Poolu a získejte konzistentní farmářskou odměnu HDD. Vytvořte NFT pole a přiřaďte svá nová pole do skupiny."
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 #~ msgid "K-Size"
@@ -1467,8 +1467,8 @@ msgstr "Ne"
 #~ msgstr "Pole nenalezena"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-#~ msgstr "Všimněte si, že toto nezmění vaše Pool adresy. To se týká pouze starého formátu polí a odměny 0,25XCH pool polí."
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25HDD reward for pooling plots."
+#~ msgstr "Všimněte si, že toto nezmění vaše Pool adresy. To se týká pouze starého formátu polí a odměny 0,25HDD pool polí."
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
 #: src/components/plotNFT/PlotNFTCard.tsx:160
@@ -2192,8 +2192,8 @@ msgstr ""
 #~ msgstr "Vlastní poolování"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-#~ msgid "Self pool. When you win a block you will earn XCH rewards."
-#~ msgstr "Vlastní pool. Když vyhraješ blok, získáš XCH odměnu ty."
+#~ msgid "Self pool. When you win a block you will earn HDD rewards."
+#~ msgstr "Vlastní pool. Když vyhraješ blok, získáš HDD odměnu ty."
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -2258,8 +2258,8 @@ msgstr ""
 #~ msgstr "Přeskočí využití cílové složky pro farmaření"
 
 #: src/components/pool/PoolHero.tsx:26
-#~ msgid "Smooth out your XCH farming rewards by joining a pool."
-#~ msgstr "Stabilizujte odměny za vaše farmení XCH přidáním do poolu."
+#~ msgid "Smooth out your HDD farming rewards by joining a pool."
+#~ msgstr "Stabilizujte odměny za vaše farmení HDD přidáním do poolu."
 
 #: src/modules/message.js:568
 #: src/modules/message.js:583
@@ -2380,23 +2380,23 @@ msgstr "Odeslat"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "THDD Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "THDD Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "THDD Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "THDD User Fees"
+#~ msgstr "THDD User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "THDD User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2478,8 +2478,8 @@ msgstr "URL adresa poolu musí používat protokol https. {normalizedUrl}"
 #~ msgstr "Souhrnná výše transakčních poplatků v tomto bloku. Vyplaceno farmářům."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-#~ msgstr "Toto jsou instrukce, jak chce farmář dostávat platbu. Ve výchozím nastavení se jedná o adresu XCH, ale může být nastaven libovolný řetězec o velikosti menší než 1024 znaků, aby mohl zastupovat jiný blockchain nebo identifikátor platebního systému."
+#~ msgid "These are the instructions for how the farmer wants to get paid. By default this will be an HDD address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+#~ msgstr "Toto jsou instrukce, jak chce farmář dostávat platbu. Ve výchozím nastavení se jedná o adresu HDD, ale může být nastaven libovolný řetězec o velikosti menší než 1024 znaků, aby mohl zastupovat jiný blockchain nebo identifikátor platebního systému."
 
 #: src/components/plot/PlotsFailed.tsx:40
 #~ msgid "These plots are invalid, you might want to delete them."
@@ -3076,5 +3076,5 @@ msgstr "[Chyba 22] Soubor nenalezen. Jedna ze složek polí v konfiguraci má pr
 #~ msgstr "Poplatky za transakce {currencyCode}"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgid "{byte, plural, one {byte} other {bytes}}"
 #~ msgstr ""

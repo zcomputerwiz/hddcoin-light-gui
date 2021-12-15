@@ -23,7 +23,7 @@ import {
   calculatePoolReward,
   calculateBaseFarmerReward,
   useCurrencyCode,
-  mojoToHDDcoin,
+  byteToHDDcoin,
   DashboardTitle,
   Suspender,
 } from '@hddcoin/core';
@@ -160,13 +160,13 @@ export default function Block() {
       ? blockRecord.weight - prevBlockRecord.weight
       : blockRecord?.weight ?? 0;
 
-  const poolReward = mojoToHDDcoin(calculatePoolReward(blockRecord.height));
-  const baseFarmerReward = mojoToHDDcoin(
+  const poolReward = byteToHDDcoin(calculatePoolReward(blockRecord.height));
+  const baseFarmerReward = byteToHDDcoin(
     calculateBaseFarmerReward(blockRecord.height),
   );
 
   const hddcoinFees = blockRecord.fees !== undefined
-    ? mojoToHDDcoin(blockRecord.fees)
+    ? byteToHDDcoin(blockRecord.fees)
     : '';
 
   const rows = [

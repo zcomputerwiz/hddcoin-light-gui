@@ -42,7 +42,7 @@ import {
   send_transaction,
   farm_block,
 } from '../../../modules/message';
-import { /* mojo_to_hddcoin_string, */ hddcoin_to_mojo } from '../../../util/hddcoin';
+import { /* byte_to_hddcoin_string, */ hddcoin_to_byte } from '../../../util/hddcoin';
 import { openDialog } from '../../../modules/dialog';
 import { get_transaction_result } from '../../../util/transaction_result';
 import config from '../../../config/config';
@@ -238,7 +238,7 @@ function BalanceCardSubSection(props: BalanceCardSubSectionProps) {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojo_to_hddcoin_string(props.balance)} {currencyCode}
+            {byte_to_hddcoin_string(props.balance)} {currencyCode}
           </Typography>
         </Box>
       </Box>
@@ -463,8 +463,8 @@ function SendCard(props: SendCardProps) {
       address = address.slice(2);
     }
 
-    const amountValue = Number.parseFloat(hddcoin_to_mojo(amount));
-    const feeValue = Number.parseFloat(hddcoin_to_mojo(fee));
+    const amountValue = Number.parseFloat(hddcoin_to_byte(amount));
+    const feeValue = Number.parseFloat(hddcoin_to_byte(fee));
 
     dispatch(send_transaction(wallet_id, amountValue, feeValue, address));
 

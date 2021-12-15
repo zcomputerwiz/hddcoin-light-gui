@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { Trans } from '@lingui/macro';
-import { useCurrencyCode, mojoToHDDcoinLocaleString } from '@hddcoin/core';
+import { useCurrencyCode, byteToHDDcoinLocaleString } from '@hddcoin/core';
 import { useGetFarmedAmountQuery } from '@hddcoin/api-react';
 import FarmCard from './FarmCard';
 
@@ -14,7 +14,7 @@ export default function FarmCardTotalHDDcoinFarmed() {
     if (farmedAmount !== undefined) {
       return (
         <>
-          {mojoToHDDcoinLocaleString(farmedAmount)}
+          {byteToHDDcoinLocaleString(farmedAmount)}
           &nbsp;
           {currencyCode}
         </>

@@ -15,7 +15,7 @@ import {
   Flex,
   Card,
   useOpenDialog,
-  hddcoinToMojo,
+  hddcoinToByte,
   getTransactionResult,
   useIsSimulator,
 } from '@hddcoin/core';
@@ -110,8 +110,8 @@ export default function WalletSend(props: SendCardProps) {
     const response = await sendTransaction({
       walletId,
       address,
-      amount: hddcoinToMojo(amount),
-      fee: hddcoinToMojo(fee),
+      amount: hddcoinToByte(amount),
+      fee: hddcoinToByte(fee),
       waitForConfirmation: true,
     }).unwrap();
 

@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router';
 import { create_cc_for_colour_action } from '../../../modules/message';
-import { hddcoinToMojo } from '@hddcoin/core';
+import { hddcoinToByte } from '@hddcoin/core';
 import { openDialog } from '../../../modules/dialog';
 import config from '../../../config/config';
 
@@ -57,9 +57,9 @@ export default function WalletCATCreateExisting() {
         return;
       }*/
 
-      const feeMojos = hddcoinToMojo(fee || '0');
+      const feeBytes = hddcoinToByte(fee || '0');
 
-      const response = await dispatch(create_cc_for_colour_action(name, feeMojos));
+      const response = await dispatch(create_cc_for_colour_action(name, feeBytes));
       if (response && response.data && response.data.success === true) {
         navigate(`/dashboard/wallets/${response.data.wallet_id}`);
       }

@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import moment from 'moment';
 import { Box, IconButton, Table as TableBase, TableBody, TableCell, TableRow, Tooltip, Typography, Chip } from '@material-ui/core';
 import { CallReceived as CallReceivedIcon, CallMade as CallMadeIcon, ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon } from '@material-ui/icons';
-import { Card, CardKeyValue, CopyToClipboard, Flex, Loading, TableControlled, toBech32m, useCurrencyCode, mojoToHDDcoinLocaleString, mojoToCATLocaleString } from '@hddcoin/core';
+import { Card, CardKeyValue, CopyToClipboard, Flex, Loading, TableControlled, toBech32m, useCurrencyCode, byteToHDDcoinLocaleString, byteToCATLocaleString } from '@hddcoin/core';
 import styled from 'styled-components';
 import type { Row } from '@hddcoin/core';
 import { WalletType, TransactionType } from '@hddcoin/api';
@@ -106,8 +106,8 @@ const getCols = (type: WalletType) => [
           &nbsp;
           <strong>
             {type === WalletType.CAT
-            ? mojoToCATLocaleString(row.amount)
-            : mojoToHDDcoinLocaleString(row.amount)}
+            ? byteToCATLocaleString(row.amount)
+            : byteToHDDcoinLocaleString(row.amount)}
           </strong>
           &nbsp;
           {metadata.unit}
@@ -119,7 +119,7 @@ const getCols = (type: WalletType) => [
   {
     field: (row: Row, metadata) => (
       <>
-        <strong>{mojoToHDDcoinLocaleString(row.feeAmount)}</strong>
+        <strong>{byteToHDDcoinLocaleString(row.feeAmount)}</strong>
         &nbsp;
         {metadata.feeUnit}
       </>

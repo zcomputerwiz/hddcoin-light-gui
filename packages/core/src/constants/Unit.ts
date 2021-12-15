@@ -1,6 +1,6 @@
 enum Unit {
   HDDCOIN = 'hddcoin',
-  MOJO = 'mojo',
+  BYTE = 'byte',
   CAT = 'cat',
 }
 
