@@ -7,10 +7,10 @@ import {
 } from '@material-ui/core';
 // import { shuffle } from 'lodash';
 import { useForm, useFieldArray } from 'react-hook-form';
-import { useAddKeyMutation, useLogInMutation } from '@chia/api-react';
+import { useAddKeyMutation, useLogInMutation } from '@hddcoin/api-react';
 import { useNavigate } from 'react-router';
-import { Autocomplete, ButtonLoading, Form, Flex, Logo, useShowError, useTrans } from '@chia/core';
-import { english } from '@chia/api';
+import { Autocomplete, ButtonLoading, Form, Flex, Logo, useShowError, useTrans } from '@hddcoin/core';
+import { english } from '@hddcoin/api';
 
 /*
 const shuffledEnglish = shuffle(english);
@@ -81,7 +81,7 @@ export default function WalletImport() {
           <Typography variant="subtitle1" align="center">
             <Trans>
               Enter the 24 word mnemonic that you have saved in order to restore
-              your Chia wallet.
+              your HDDcoin wallet.
             </Trans>
           </Typography>
           <Grid container spacing={2}>

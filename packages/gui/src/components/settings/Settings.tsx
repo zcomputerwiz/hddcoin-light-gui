@@ -8,8 +8,8 @@ import {
   Suspender,
   useOpenDialog,
   useSkipMigration,
-} from '@chia/core';
-import { useGetKeyringStatusQuery } from '@chia/api-react';
+} from '@hddcoin/core';
+import { useGetKeyringStatusQuery } from '@hddcoin/api-react';
 import {
   Grid,
   Typography,

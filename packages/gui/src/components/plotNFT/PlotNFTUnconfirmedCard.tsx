@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { Trans } from '@lingui/macro';
-import { Flex, Link, Loading } from '@chia/core';
-import { useGetTransactionQuery } from '@chia/api-react';
+import { Flex, Link, Loading } from '@hddcoin/core';
+import { useGetTransactionQuery } from '@hddcoin/api-react';
 import { Box, Card, CardContent, Typography } from '@material-ui/core';
-import type { UnconfirmedPlotNFT } from '@chia/api';
+import type { UnconfirmedPlotNFT } from '@hddcoin/api';
 import PlotNFTState from '../../constants/PlotNFTState';
 import useUnconfirmedPlotNFTs from '../../hooks/useUnconfirmedPlotNFTs';
 

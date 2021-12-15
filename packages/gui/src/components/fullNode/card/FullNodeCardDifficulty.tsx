@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { FormatLargeNumber, CardSimple } from '@chia/core';
-import { useGetBlockchainStateQuery } from '@chia/api-react';
+import { FormatLargeNumber, CardSimple } from '@hddcoin/core';
+import { useGetBlockchainStateQuery } from '@hddcoin/api-react';
 
 export default function FullNodeCardDifficulty() {
   const { data, isLoading } = useGetBlockchainStateQuery();

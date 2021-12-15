@@ -8,7 +8,7 @@
       "esnext"
     ],
     "paths": {
-      "@chia/*": ["./components/*"]
+      "@hddcoin/*": ["./components/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,

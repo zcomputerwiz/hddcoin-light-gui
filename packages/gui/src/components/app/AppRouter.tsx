@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { SelectKey, LayoutHero, LayoutDashboard } from '@chia/core';
-import { WalletAdd, WalletImport, Wallets  } from '@chia/wallets';
+import { SelectKey, LayoutHero, LayoutDashboard } from '@hddcoin/core';
+import { WalletAdd, WalletImport, Wallets  } from '@hddcoin/wallets';
 import App from './App';
 import FullNode from '../fullNode/FullNode';
 import Block from '../block/Block';

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Logo } from '@chia/core';
+import { Logo } from '@hddcoin/core';
 import styled from 'styled-components';
-import { useGetCatListQuery } from '@chia/api-react';
-import type { Wallet } from '@chia/api';
-import { WalletType } from '@chia/api';
+import { useGetCatListQuery } from '@hddcoin/api-react';
+import type { Wallet } from '@hddcoin/api';
+import { WalletType } from '@hddcoin/api';
 import { Typography } from '@material-ui/core';
 
 const StyledSymbol = styled(Typography)`

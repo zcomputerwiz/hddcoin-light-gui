@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: pt_PT\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hddcoin-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hddcoin-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: pt-PT\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[HDDcoin-Network.hddcoin-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgstr ""
 #~ msgstr "(Opcional)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-#~ msgstr "*Quer explorar mais os blocos de Chia? Confira o <0> Chia Explorer </0> desenvolvido por um programador de código aberto."
+#~ msgid "*Want to explore HDDcoin’s blocks further? Check out <0>HDDcoin Explorer</0> built by an open source developer."
+#~ msgstr "*Quer explorar mais os blocos de HDDcoin? Confira o <0> HDDcoin Explorer </0> desenvolvido por um programador de código aberto."
 
 #: src/components/wallet/WalletHistory.tsx:111
 #~ msgid "+"
@@ -60,12 +60,12 @@ msgstr ""
 
 #: src/electron/main.tsx:423
 #: src/electron/main.tsx:510
-#~ msgid "About Chia Blockchain"
-#~ msgstr "Sobre Chia Blockchain"
+#~ msgid "About HDDcoin Blockchain"
+#~ msgstr "Sobre HDDcoin Blockchain"
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Wallet"
+msgid "About HDDcoin Wallet"
 msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -286,8 +286,8 @@ msgstr "O arquivo de backup é usado para restaurar carteiras inteligentes."
 #~ msgstr "Iterações Bloco VDF"
 
 #: src/components/block/Block.jsx:337
-#~ msgid "Block at height {0} in the Chia blockchain"
-#~ msgstr "Bloco na altura {0} na cadeia de blocos Chia"
+#~ msgid "Block at height {0} in the HDDcoin blockchain"
+#~ msgstr "Bloco na altura {0} na cadeia de blocos HDDcoin"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -352,7 +352,7 @@ msgstr "Cancelar"
 
 #: src/components/wallet/WalletSend.tsx:99
 #: src/components/wallet/cat/WalletCATSend.tsx:117
-#~ msgid "Cannot send chia to coloured address. Please enter a chia address."
+#~ msgid "Cannot send hddcoin to coloured address. Please enter a hddcoin address."
 #~ msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:39
@@ -382,21 +382,21 @@ msgid "Chat on KeyBase"
 msgstr "Chat no KeyBase"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+msgid "HDDcoin"
+msgstr "HDDcoin"
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:25
 #: src/components/wallet/create/WalletCreateList.tsx:32
-#~ msgid "Chia Asset Token"
+#~ msgid "HDDcoin Asset Token"
 #~ msgstr ""
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Wiki da Chia Blockchain"
+msgid "HDDcoin Blockchain Wiki"
+msgstr "Wiki da HDDcoin Blockchain"
 
 #: src/components/wallet/standard/WalletStandard.tsx:23
-#~ msgid "Chia Wallet"
-#~ msgstr "Carteira Chia"
+#~ msgid "HDDcoin Wallet"
+#~ msgstr "Carteira HDDcoin"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 #~ msgid "Choose Number of Plots"
@@ -562,11 +562,11 @@ msgstr "Criar"
 #~ msgstr "Criar um Pacote de Atestado"
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:65
-#~ msgid "Create Chia Asset Token Wallet"
+#~ msgid "Create HDDcoin Asset Token Wallet"
 #~ msgstr ""
 
 #: src/components/wallet/cat/WalletCATCreateExisting.tsx:77
-#~ msgid "Create Chia Asset Token Wallet from Existing TAIL"
+#~ msgid "Create HDDcoin Asset Token Wallet from Existing TAIL"
 #~ msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -578,7 +578,7 @@ msgstr "Criar"
 #~ msgstr "Criar carteira de identidade distribuída"
 
 #: src/components/wallet/cat/WalletCATCreateNew.tsx:77
-#~ msgid "Create New Chia Asset Token Wallet"
+#~ msgid "Create New HDDcoin Asset Token Wallet"
 #~ msgstr ""
 
 #: src/components/wallet/cat/WalletCATSelect.tsx:32
@@ -852,8 +852,8 @@ msgid "Enter a strong passphrase and click Migrate Keys to secure your keys"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:94
-#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-#~ msgstr "Digite o mnemônico de 24 palavras que você salvou para restaurar sua carteira Chia."
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your HDDcoin wallet."
+#~ msgstr "Digite o mnemônico de 24 palavras que você salvou para restaurar sua carteira HDDcoin."
 
 #: src/components/farm/card/FarmCard.tsx:57
 #~ msgid "Error"
@@ -864,8 +864,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/WalletSend.tsx:289
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-#~ msgstr "Erro: Não é possível enviar chia para endereço colorido. Por favor, insira um endereço chia."
+#~ msgid "Error: Cannot send hddcoin to coloured address. Please enter a hddcoin address."
+#~ msgstr "Erro: Não é possível enviar hddcoin para endereço colorido. Por favor, insira um endereço hddcoin."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 #~ msgid "Estimated Network Space"
@@ -1772,8 +1772,8 @@ msgstr "Por favor, aguarde a sincronização da carteira"
 #~ msgstr "Plots Aprovados no FIltro"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-#~ msgstr "Os plots são alocados no espaço do seu disco rígido, usado para cultivar e ganhar Chia. <0>Saiba mais</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn HDDcoin. <0>Learn more</0>"
+#~ msgstr "Os plots são alocados no espaço do seu disco rígido, usado para cultivar e ganhar HDDcoin. <0>Saiba mais</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 #~ msgid "Plotting"
@@ -2295,8 +2295,8 @@ msgstr "Fala"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-#~ msgid "Spending Limit (chia per interval): {0}"
-#~ msgstr "Limite de gastos (chia por intervalo): {0}"
+#~ msgid "Spending Limit (hddcoin per interval): {0}"
+#~ msgstr "Limite de gastos (hddcoin por intervalo): {0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -2351,8 +2351,8 @@ msgstr ""
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the HDDcoin blockchain"
+#~ msgstr "Sub Block at height {0} in the HDDcoin blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:97
 msgid "Submit"
@@ -2508,8 +2508,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Este recurso está disponível apenas na GUI."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:23
-#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-#~ msgstr "Esta é a quantidade de Chia que você pode usar atualmente para fazer transações. Não inclui recompensas agrícolas pendentes, transações recebidas pendentes e Chia que você acabou de gastar, mas ainda não está no blockchain."
+#~ msgid "This is the amount of HDDcoin that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and HDDcoin that you have just spent but is not yet in the blockchain."
+#~ msgstr "Esta é a quantidade de HDDcoin que você pode usar atualmente para fazer transações. Não inclui recompensas agrícolas pendentes, transações recebidas pendentes e HDDcoin que você acabou de gastar, mas ainda não está no blockchain."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:44
 #~ msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2528,8 +2528,8 @@ msgstr "Este recurso está disponível apenas na GUI."
 #~ msgstr "Essa é a hora em que o bloco foi criado pelo agricultor, que é antes de ser finalizado com uma prova de tempo"
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:16
-#~ msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-#~ msgstr "Esta é a quantidade total de chia no blockchain no sub-bloco de pico atual que é controlado por suas chaves privadas. Inclui recompensas de cultivo congelado, mas não transações pendentes de entrada e saída."
+#~ msgid "This is the total amount of hddcoin in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "Esta é a quantidade total de hddcoin no blockchain no sub-bloco de pico atual que é controlado por suas chaves privadas. Inclui recompensas de cultivo congelado, mas não transações pendentes de entrada e saída."
 
 #: src/components/wallet/standard/WalletStandardCards.tsx:31
 #~ msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2574,8 +2574,8 @@ msgstr "Este recurso está disponível apenas na GUI."
 #~ msgstr "Esta operação foi incluída na blockchain nesta altura do bloco"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "Esta versão do Chia já não é mais compatível com a blockchain e não pode fazer farming com segurança."
+#~ msgid "This version of HDDcoin is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Esta versão do HDDcoin já não é mais compatível com a blockchain e não pode fazer farming com segurança."
 
 #: src/components/fullNode/FullNode.jsx:92
 #~ msgid "Time Created"
@@ -2614,8 +2614,8 @@ msgstr "Este recurso está disponível apenas na GUI."
 #~ msgid "Total Balance"
 #~ msgstr "Balanço Total"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHDDcoinFarmed.tsx:15
+#~ msgid "Total HDDcoin Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2823,7 +2823,7 @@ msgstr "Vista"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.hddcoinWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2859,8 +2859,8 @@ msgstr "Vista"
 #~ msgstr "Quer entrar em numa Pool? Crie um Plot NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chia? Add more plots to your farm."
-#~ msgstr "Quer ganhar mais Chia? Adicione mais plots à sua farm."
+#~ msgid "Want to earn more HDDcoin? Add more plots to your farm."
+#~ msgstr "Quer ganhar mais HDDcoin? Adicione mais plots à sua farm."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 #~ msgid "Want to have a delay before the next plot starts?"
@@ -2887,8 +2887,8 @@ msgstr "Vista"
 #~ msgstr "O peso é a dificuldade total adicionada de todos os sub-blocos até e incluindo este"
 
 #: src/components/selectKey/SelectKey.tsx:81
-#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-#~ msgstr "Bem-vindo à Chia. Faça login com uma chave existente ou crie uma nova chave."
+#~ msgid "Welcome to HDDcoin. Please log in with an existing key, or create a new key."
+#~ msgstr "Bem-vindo à HDDcoin. Faça login com uma chave existente ou crie uma nova chave."
 
 #: src/components/wallet/WalletAdd.tsx:85
 #~ msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2960,8 +2960,8 @@ msgstr "Você não é pool próprio"
 #~ msgstr "Você precisa resgatar as suas recompensas primeiro"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the HDDcoin application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the HDDcoin application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 #~ msgid "You need {currencyCode} to join a pool."
@@ -3012,7 +3012,7 @@ msgid "Your keys need to be migrated to a new keyring that is secured by a maste
 msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:181
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. HDDcoin will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/util/getDescriptiveError.ts:5
@@ -3067,9 +3067,9 @@ msgstr "[Error 22] O arquivo não foi encontrado. Provavelmente uma das pastas d
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} Recompensas do Bloco"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
-#~ msgstr "{currencyCode} Total de Chia cultivada"
+#: src/components/farm/card/FarmCardTotalHDDcoinFarmed.tsx:29
+#~ msgid "{currencyCode} Total HDDcoin Farmed"
+#~ msgstr "{currencyCode} Total de HDDcoin cultivada"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

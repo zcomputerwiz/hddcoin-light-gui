@@ -1,9 +1,9 @@
 import Big from 'big.js';
 import Unit from '../constants/Unit';
-import chiaFormatter from './chiaFormatter';
+import hddcoinFormatter from './hddcoinFormatter';
 
 export default function catToMojo(cat: string | number | Big): string {
-  return chiaFormatter(cat, Unit.CAT)
+  return hddcoinFormatter(cat, Unit.CAT)
     .to(Unit.MOJO)
     .toString();
 }

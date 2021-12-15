@@ -1,5 +1,5 @@
-import { ServiceName } from '@chia/api';
-import { useIsServiceRunningQuery } from '@chia/api-react';
+import { ServiceName } from '@hddcoin/api';
+import { useIsServiceRunningQuery } from '@hddcoin/api-react';
 import FarmerStatus from '../constants/FarmerStatus';
 import FullNodeState from '../constants/FullNodeState';
 import useFullNodeState from './useFullNodeState';

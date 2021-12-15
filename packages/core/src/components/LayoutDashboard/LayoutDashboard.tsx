@@ -10,9 +10,9 @@ import {
   Logo,
   ToolbarSpacing,
   Loading,
-} from '@chia/core';
+} from '@hddcoin/core';
 import { DashboardTitleTarget } from '../DashboardTitle';
-import { useLogout } from '@chia/api-react';
+import { useLogout } from '@hddcoin/api-react';
 import { ExitToApp as ExitToAppIcon } from '@material-ui/icons';
 
 const StyledRoot = styled(Flex)`

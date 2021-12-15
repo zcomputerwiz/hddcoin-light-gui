@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 import { AppBar, Toolbar, Box } from '@material-ui/core';
 import styled from 'styled-components';
 import { Outlet, Link } from 'react-router-dom';
-import { Flex, DarkModeToggle, LocaleToggle } from '@chia/core';
+import { Flex, DarkModeToggle, LocaleToggle } from '@hddcoin/core';
 import { ArrowBackIos as ArrowBackIosIcon } from '@material-ui/icons';
 
 const StyledWrapper = styled(Box)`

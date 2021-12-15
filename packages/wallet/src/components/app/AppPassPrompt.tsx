@@ -9,9 +9,9 @@ import {
   Button,
 } from '@material-ui/core';
 import { Trans, t } from '@lingui/macro';
-import { PassphrasePromptReason } from '@chia/api';
-import { useUnlockKeyringMutation, useGetKeyringStatusQuery } from '@chia/api-react';
-import { Flex, TooltipIcon, useShowError, Suspender } from '@chia/core';
+import { PassphrasePromptReason } from '@hddcoin/api';
+import { useUnlockKeyringMutation, useGetKeyringStatusQuery } from '@hddcoin/api-react';
+import { Flex, TooltipIcon, useShowError, Suspender } from '@hddcoin/core';
 
 type Props = {
   reason: PassphrasePromptReason;

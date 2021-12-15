@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@material-ui/core';
-import { Link, Table, Card } from '@chia/core';
-import { useGetSignagePointsQuery, useGetCombinedPlotsQuery } from '@chia/api-react';
+import { Link, Table, Card } from '@hddcoin/core';
+import { useGetSignagePointsQuery, useGetCombinedPlotsQuery } from '@hddcoin/api-react';
 import type { Row } from '../core/components/Table/Table';
 
 const cols = [
@@ -56,13 +56,13 @@ export default function FarmLatestBlockChallenges() {
       />
       <Typography variant="caption">
         <Trans>
-          *Want to explore Chia’s blocks further? Check out{' '}
+          *Want to explore HDDcoin’s blocks further? Check out{' '}
           <Link
             color="primary"
-            href="https://www.chiaexplorer.com/"
+            href="https://www.hddcoinexplorer.com/"
             target="_blank"
           >
-            Chia Explorer
+            HDDcoin Explorer
           </Link>{' '}
           built by an open source developer.
         </Trans>

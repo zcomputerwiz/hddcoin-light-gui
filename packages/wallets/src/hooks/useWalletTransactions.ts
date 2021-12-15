@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useGetTransactionsQuery, useGetTransactionsCountQuery } from '@chia/api-react';
-import type { Transaction } from '@chia/api';
+import { useGetTransactionsQuery, useGetTransactionsCountQuery } from '@hddcoin/api-react';
+import type { Transaction } from '@hddcoin/api';
 
 export default function useWalletTransactions(
   walletId: number, 

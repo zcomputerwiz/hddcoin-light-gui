@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, ConfirmDialog, UnitFormat, useOpenDialog } from '@chia/core';
-import type { PlotNFT } from '@chia/api';
-import { usePwAbsorbRewardsMutation } from '@chia/api-react';
+import { AlertDialog, ConfirmDialog, UnitFormat, useOpenDialog } from '@hddcoin/core';
+import type { PlotNFT } from '@hddcoin/api';
+import { usePwAbsorbRewardsMutation } from '@hddcoin/api-react';
 import usePlotNFTDetails from './usePlotNFTDetails';
 import PlotNFTState from '../constants/PlotNFTState';
 

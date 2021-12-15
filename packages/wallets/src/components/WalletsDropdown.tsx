@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { ListItemIcon, ListItemText, Typography } from '@material-ui/core';
-import { Dropdown, Flex, Loading, useTrans } from '@chia/core';
-import { useGetWalletsQuery } from '@chia/api-react';
+import { Dropdown, Flex, Loading, useTrans } from '@hddcoin/core';
+import { useGetWalletsQuery } from '@hddcoin/api-react';
 import { useNavigate } from 'react-router';
 import WalletName from '../constants/WalletName';
 import WalletIcon from './WalletIcon';

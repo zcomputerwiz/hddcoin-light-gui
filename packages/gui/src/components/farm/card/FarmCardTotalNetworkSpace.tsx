@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { FormatBytes } from '@chia/core';
-import { useGetBlockchainStateQuery } from '@chia/api-react';
+import { FormatBytes } from '@hddcoin/core';
+import { useGetBlockchainStateQuery } from '@hddcoin/api-react';
 import FarmCard from './FarmCard';
 
 export default function FarmCardTotalNetworkSpace() {

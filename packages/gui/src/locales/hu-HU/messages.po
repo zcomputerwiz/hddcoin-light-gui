@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: hu_HU\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hddcoin-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hddcoin-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: hu\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[HDDcoin-Network.hddcoin-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:74
@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr "(nem kötelező)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:58
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Fel szeretnéd fedezni a Chia rendszerét bővebben? Nézd meg a <0> Chia Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
+msgid "*Want to explore HDDcoin’s blocks further? Check out <0>HDDcoin Explorer</0> built by an open source developer."
+msgstr "Fel szeretnéd fedezni a HDDcoin rendszerét bővebben? Nézd meg a <0> HDDcoin Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -60,8 +60,8 @@ msgstr ""
 
 #: src/electron/main.tsx:433
 #: src/electron/main.tsx:520
-msgid "About Chia Blockchain"
-msgstr "A Chia Blockchain-ről"
+msgid "About HDDcoin Blockchain"
+msgstr "A HDDcoin Blockchain-ről"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -257,8 +257,8 @@ msgid "Block VDF Iterations"
 msgstr "VDF-iterációk blokkja"
 
 #: src/components/block/Block.jsx:326
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "{0} Magasságú blokk a Chia blokkláncban"
+msgid "Block at height {0} in the HDDcoin blockchain"
+msgstr "{0} Magasságú blokk a HDDcoin blokkláncban"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -361,16 +361,16 @@ msgid "Chat on KeyBase"
 msgstr "Csevegés a KeyBase-n"
 
 #: src/electron/main.tsx:430
-msgid "Chia"
-msgstr "Chia"
+msgid "HDDcoin"
+msgstr "HDDcoin"
 
 #: src/electron/main.tsx:369
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blokklánc Wiki"
+msgid "HDDcoin Blockchain Wiki"
+msgstr "HDDcoin Blokklánc Wiki"
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:642
-msgid "Chia Wallet"
-msgstr "Chia Pénztárca"
+msgid "HDDcoin Wallet"
+msgstr "HDDcoin Pénztárca"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
 msgid "Choose Number of Plots"
@@ -734,7 +734,7 @@ msgstr ""
 #~ msgstr "A kulcs törlése véglegesen eltávolítja a kulcsot a számítógépedről, ezért gondoskodj biztonsági mentésről. Biztos, hogy folytatni szeretnéd?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:92
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default HDDcoin Proof of Space plotter. If unsure, use the default HDDcoin Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:315
@@ -835,8 +835,8 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/_wallet_old/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "A Chia pénztárca visszaállításához írja be az elmentett 24 szóból álló mnemonikát."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your HDDcoin wallet."
+msgstr "A HDDcoin pénztárca visszaállításához írja be az elmentett 24 szóból álló mnemonikát."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:104
 msgid "Enter your passphrase:"
@@ -853,8 +853,8 @@ msgid "Error"
 msgstr "Hiba"
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Hiba: A chia nem küldhető színes címre. Kérjük, adjon meg másik chia címet."
+msgid "Error: Cannot send hddcoin to coloured address. Please enter a hddcoin address."
+msgstr "Hiba: A hddcoin nem küldhető színes címre. Kérjük, adjon meg másik hddcoin címet."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:14
 msgid "Estimated Network Space"
@@ -1821,8 +1821,8 @@ msgid "Plots Passed Filter"
 msgstr "Szűrőn átjutott parcellák"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:33
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "A cserepek a termesztéshez fenntartott helyek a merevlemezen, amikből Chia nyerhető. <0>Részletek</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn HDDcoin. <0>Learn more</0>"
+msgstr "A cserepek a termesztéshez fenntartott helyek a merevlemezen, amikből HDDcoin nyerhető. <0>Részletek</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:103
 msgid "Plotter"
@@ -2346,8 +2346,8 @@ msgstr "Költési időszak hossza (blokkok száma)"
 
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:401
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Költési limit (chia / intervallum): {0}"
+msgid "Spending Limit (hddcoin per interval): {0}"
+msgstr "Költési limit (hddcoin / intervallum): {0}"
 
 #: src/components/app/AppState.tsx:161
 msgid "Starting services"
@@ -2399,8 +2399,8 @@ msgstr "Állapot:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the HDDcoin blockchain"
+#~ msgstr "Sub Block at height {0} in the HDDcoin blockchain"
 
 #: src/components/_wallet_old/did/WalletDID.tsx:889
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:347
@@ -2558,8 +2558,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Ez a funkció csak a grafikus felhasználói felületrôl érhetô el."
 
 #: src/components/_wallet_old/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Ez az összeg Chia, amelyet jelenleg felhasználhat tranzakciók lebonyolítására. Nem tartalmazza a függőben lévő gazdálkodási jutalmakat, a függőben lévő bejövő tranzakciókat és Chiát, amelyet most költött, de még nem tartozik a blokkláncba."
+msgid "This is the amount of HDDcoin that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and HDDcoin that you have just spent but is not yet in the blockchain."
+msgstr "Ez az összeg HDDcoin, amelyet jelenleg felhasználhat tranzakciók lebonyolítására. Nem tartalmazza a függőben lévő gazdálkodási jutalmakat, a függőben lévő bejövő tranzakciókat és Chiát, amelyet most költött, de még nem tartozik a blokkláncba."
 
 #: src/components/_wallet_old/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2580,8 +2580,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Ekkor hozta létre a blokkot a gazdálkodó, ami még az idő igazolásával véglegesítés előtt van"
 
 #: src/components/_wallet_old/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Ez az összes Chia mennyiség a blokkláncban az aktuális csúcs alblokkban, amelyet a privát kulcsaid vezérelnek. Ez magában foglalja a befagyasztott gazdálkodási jutalmakat, de nem a függőben lévő bejövő és kimenő tranzakciókat."
+msgid "This is the total amount of hddcoin in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Ez az összes HDDcoin mennyiség a blokkláncban az aktuális csúcs alblokkban, amelyet a privát kulcsaid vezérelnek. Ez magában foglalja a befagyasztott gazdálkodási jutalmakat, de nem a függőben lévő bejövő és kimenő tranzakciókat."
 
 #: src/components/_wallet_old/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2626,8 +2626,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Ez a kereskedés a blokklánc ezen magasságán történt"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "A Chia ezen verziója többé már nem kompatibilis a blokklánccal és nem biztonságos."
+#~ msgid "This version of HDDcoin is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "A HDDcoin ezen verziója többé már nem kompatibilis a blokklánccal és nem biztonságos."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2655,8 +2655,8 @@ msgstr "Címzett"
 msgid "Total Balance"
 msgstr "Teljes egyenleg"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHDDcoinFarmed.tsx:27
+msgid "Total HDDcoin Farmed"
 msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:14
@@ -2848,7 +2848,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.hddcoinWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2885,8 +2885,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Szeretne többet keresni Chia-val? Adjon hozzá több telket a gazdaságához (farmoláshoz)."
+msgid "Want to earn more HDDcoin? Add more plots to your farm."
+msgstr "Szeretne többet keresni HDDcoin-val? Adjon hozzá több telket a gazdaságához (farmoláshoz)."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 msgid "Want to have a delay before the next plot starts?"
@@ -2918,8 +2918,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Az összes alblokk teljes hozzáadott nehézségének a súlya, egészen ehhez az egységig"
 
 #: src/components/_selectKey_old/SelectKey.tsx:183
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Üdvözöljük a Chia-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
+msgid "Welcome to HDDcoin. Please log in with an existing key, or create a new key."
+msgstr "Üdvözöljük a HDDcoin-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
 
 #: src/components/_wallet_old/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2993,8 +2993,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the HDDcoin application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the HDDcoin application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:36
 msgid "You need {currencyCode} to join a pool."
@@ -3051,7 +3051,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:181
 #: src/components/settings/ChangePassphrasePrompt.tsx:211
 #: src/components/settings/SetPassphrasePrompt.tsx:193
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. HDDcoin will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:85
@@ -3136,9 +3136,9 @@ msgstr ""
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "Blokk jutalmak {currencyCode}"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
-#~ msgstr "Teljes farmolt Chia mennyiség {currencyCode}"
+#: src/components/farm/card/FarmCardTotalHDDcoinFarmed.tsx:29
+#~ msgid "{currencyCode} Total HDDcoin Farmed"
+#~ msgstr "Teljes farmolt HDDcoin mennyiség {currencyCode}"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

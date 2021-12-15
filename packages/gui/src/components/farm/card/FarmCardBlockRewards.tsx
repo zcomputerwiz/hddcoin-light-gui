@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { Trans } from '@lingui/macro';
-import { useCurrencyCode, mojoToChiaLocaleString } from '@chia/core';
-import { useGetFarmedAmountQuery } from '@chia/api-react';
+import { useCurrencyCode, mojoToHDDcoinLocaleString } from '@hddcoin/core';
+import { useGetFarmedAmountQuery } from '@hddcoin/api-react';
 import FarmCard from './FarmCard';
 
 export default function FarmCardBlockRewards() {
@@ -18,7 +18,7 @@ export default function FarmCardBlockRewards() {
         BigInt(poolRewardAmount.toString());
       return (
         <>
-          {mojoToChiaLocaleString(val)}
+          {mojoToHDDcoinLocaleString(val)}
           &nbsp;
           {currencyCode}
         </>

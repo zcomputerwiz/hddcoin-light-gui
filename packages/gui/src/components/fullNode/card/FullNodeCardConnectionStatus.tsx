@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { CardSimple } from '@chia/core';
-import { ServiceName } from '@chia/api';
-import { useIsServiceRunningQuery } from '@chia/api-react';
+import { CardSimple } from '@hddcoin/core';
+import { ServiceName } from '@hddcoin/api';
+import { useIsServiceRunningQuery } from '@hddcoin/api-react';
 
 export default function FullNodeCardConnectionStatus() {
   const { data: isRunning, isLoading } = useIsServiceRunningQuery({

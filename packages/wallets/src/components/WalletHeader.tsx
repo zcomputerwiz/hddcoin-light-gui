@@ -6,7 +6,7 @@ import {
   ConfirmDialog,
   useOpenDialog,
   useShowDebugInformation,
-} from '@chia/core';
+} from '@hddcoin/core';
 import { useNavigate } from 'react-router';
 import {
   Box,
@@ -18,7 +18,7 @@ import {
 import {
   Delete as DeleteIcon,
 } from '@material-ui/icons';
-import { useDeleteUnconfirmedTransactionsMutation } from '@chia/api-react';
+import { useDeleteUnconfirmedTransactionsMutation } from '@hddcoin/api-react';
 import WalletStatus from './WalletStatus';
 import WalletsDropdodown from './WalletsDropdown';
 

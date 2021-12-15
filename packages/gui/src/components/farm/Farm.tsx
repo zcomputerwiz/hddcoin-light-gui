@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AdvancedOptions, Flex, DashboardTitle } from '@chia/core';
-import { useGetHarvesterConnectionsQuery } from '@chia/api-react';
+import { AdvancedOptions, Flex, DashboardTitle } from '@hddcoin/core';
+import { useGetHarvesterConnectionsQuery } from '@hddcoin/api-react';
 import FarmOverview from './overview/FarmOverview';
 import FarmLatestBlockChallenges from './FarmLatestBlockChallenges';
 import FarmFullNodeConnections from './FarmFullNodeConnections';

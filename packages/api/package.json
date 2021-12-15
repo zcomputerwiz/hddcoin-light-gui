@@ -1,8 +1,8 @@
 {
-  "name": "@chia/api",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Chia API Library",
-  "productName": "Chia Blockchain",
+  "name": "@hddcoin/api",
+  "author": "HDDcoin Network <hello@hddcoin.net> (https://hddcoin.net/)",
+  "description": "HDDcoin API Library",
+  "productName": "HDDcoin Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
-import { useGetWalletsQuery, useGetCatListQuery } from '@chia/api-react';
-import { WalletType } from '@chia/api';
-import type { Wallet } from '@chia/api';
-import { useCurrencyCode } from '@chia/core';
+import { useGetWalletsQuery, useGetCatListQuery } from '@hddcoin/api-react';
+import { WalletType } from '@hddcoin/api';
+import type { Wallet } from '@hddcoin/api';
+import { useCurrencyCode } from '@hddcoin/core';
 
 export default function useWallet(walletId: number): {
   loading: boolean;

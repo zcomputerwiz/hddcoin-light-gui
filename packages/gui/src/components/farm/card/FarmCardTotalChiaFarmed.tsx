@@ -1,20 +1,20 @@
 import React, { useMemo } from 'react';
 import { Trans } from '@lingui/macro';
-import { useCurrencyCode, mojoToChiaLocaleString } from '@chia/core';
-import { useGetFarmedAmountQuery } from '@chia/api-react';
+import { useCurrencyCode, mojoToHDDcoinLocaleString } from '@hddcoin/core';
+import { useGetFarmedAmountQuery } from '@hddcoin/api-react';
 import FarmCard from './FarmCard';
 
-export default function FarmCardTotalChiaFarmed() {
+export default function FarmCardTotalHDDcoinFarmed() {
   const currencyCode = useCurrencyCode();
   const { data, isLoading } = useGetFarmedAmountQuery();
 
   const farmedAmount = data?.farmedAmount;
 
-  const totalChiaFarmed = useMemo(() => {
+  const totalHDDcoinFarmed = useMemo(() => {
     if (farmedAmount !== undefined) {
       return (
         <>
-          {mojoToChiaLocaleString(farmedAmount)}
+          {mojoToHDDcoinLocaleString(farmedAmount)}
           &nbsp;
           {currencyCode}
         </>
@@ -24,8 +24,8 @@ export default function FarmCardTotalChiaFarmed() {
 
   return (
     <FarmCard
-      title={<Trans>Total Chia Farmed</Trans>}
-      value={totalChiaFarmed}
+      title={<Trans>Total HDDcoin Farmed</Trans>}
+      value={totalHDDcoinFarmed}
       loading={isLoading}
     />
   );

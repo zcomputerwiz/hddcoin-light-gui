@@ -12,7 +12,7 @@ const convert = (amount, from, to) => {
   return Number.parseFloat(amountInFromUnit.div(units.getUnit(to)));
 };
 
-class Chia {
+class HDDcoin {
   constructor(value, unit) {
     this._value = value;
     this._unit = unit;
@@ -73,42 +73,42 @@ class Chia {
   }
 }
 
-export const chia_formatter = (value, unit) => new Chia(value, unit);
+export const hddcoin_formatter = (value, unit) => new HDDcoin(value, unit);
 
-chia_formatter.convert = convert;
-chia_formatter.setDisplay = units.setDisplay;
-chia_formatter.setUnit = units.setUnit;
-chia_formatter.getUnit = units.getUnit;
-chia_formatter.setFiat = (currency, rate, display = null) => {
+hddcoin_formatter.convert = convert;
+hddcoin_formatter.setDisplay = units.setDisplay;
+hddcoin_formatter.setUnit = units.setUnit;
+hddcoin_formatter.getUnit = units.getUnit;
+hddcoin_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const mojo_to_chia = (mojo) => {
-  return chia_formatter(Number.parseInt(mojo), 'mojo').to('chia').value();
+export const mojo_to_hddcoin = (mojo) => {
+  return hddcoin_formatter(Number.parseInt(mojo), 'mojo').to('hddcoin').value();
 };
 
-export const chia_to_mojo = (chia) => {
-  return chia_formatter(Number.parseFloat(Number(chia)), 'chia')
+export const hddcoin_to_mojo = (hddcoin) => {
+  return hddcoin_formatter(Number.parseFloat(Number(hddcoin)), 'hddcoin')
     .to('mojo')
     .value();
 };
 
-export const mojo_to_chia_string = (mojo) => {
-  return chia_formatter(Number(mojo), 'mojo').to('chia').toString();
+export const mojo_to_hddcoin_string = (mojo) => {
+  return hddcoin_formatter(Number(mojo), 'mojo').to('hddcoin').toString();
 };
 
 export const mojo_to_colouredcoin = (mojo) => {
-  return chia_formatter(Number.parseInt(mojo), 'mojo')
+  return hddcoin_formatter(Number.parseInt(mojo), 'mojo')
     .to('colouredcoin')
     .value();
 };
 
 export const colouredcoin_to_mojo = (colouredcoin) => {
-  return chia_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
+  return hddcoin_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
     .to('mojo')
     .value();
 };
 
 export const mojo_to_colouredcoin_string = (mojo) => {
-  return chia_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+  return hddcoin_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
 };

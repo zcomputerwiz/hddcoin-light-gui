@@ -12,7 +12,7 @@ type Display = {
 const display: {
   [key in Unit]: Display;
 } = {
-  chia: {
+  hddcoin: {
     format: '{amount} XCH',
     fractionDigits: 12,
   },

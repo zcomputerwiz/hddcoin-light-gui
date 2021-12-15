@@ -3,10 +3,10 @@ import { Trans } from '@lingui/macro';
 import moment from 'moment';
 import { Box, IconButton, Table as TableBase, TableBody, TableCell, TableRow, Tooltip, Typography, Chip } from '@material-ui/core';
 import { CallReceived as CallReceivedIcon, CallMade as CallMadeIcon, ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon } from '@material-ui/icons';
-import { Card, CardKeyValue, CopyToClipboard, Flex, Loading, TableControlled, toBech32m, useCurrencyCode, mojoToChiaLocaleString, mojoToCATLocaleString } from '@chia/core';
+import { Card, CardKeyValue, CopyToClipboard, Flex, Loading, TableControlled, toBech32m, useCurrencyCode, mojoToHDDcoinLocaleString, mojoToCATLocaleString } from '@hddcoin/core';
 import styled from 'styled-components';
-import type { Row } from '@chia/core';
-import { WalletType, TransactionType } from '@chia/api';
+import type { Row } from '@hddcoin/core';
+import { WalletType, TransactionType } from '@hddcoin/api';
 import useWallet from '../hooks/useWallet';
 import useWalletTransactions from '../hooks/useWalletTransactions';
 
@@ -107,7 +107,7 @@ const getCols = (type: WalletType) => [
           <strong>
             {type === WalletType.CAT
             ? mojoToCATLocaleString(row.amount)
-            : mojoToChiaLocaleString(row.amount)}
+            : mojoToHDDcoinLocaleString(row.amount)}
           </strong>
           &nbsp;
           {metadata.unit}
@@ -119,7 +119,7 @@ const getCols = (type: WalletType) => [
   {
     field: (row: Row, metadata) => (
       <>
-        <strong>{mojoToChiaLocaleString(row.feeAmount)}</strong>
+        <strong>{mojoToHDDcoinLocaleString(row.feeAmount)}</strong>
         &nbsp;
         {metadata.feeUnit}
       </>

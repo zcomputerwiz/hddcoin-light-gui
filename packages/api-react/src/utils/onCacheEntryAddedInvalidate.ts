@@ -1,4 +1,4 @@
-import type { Service } from '@chia/api';
+import type { Service } from '@hddcoin/api';
 
 type Invalidate = {
   command: string;

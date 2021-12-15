@@ -1,9 +1,9 @@
-import type { Wallet } from '@chia/api';
-import { WalletType } from '@chia/api';
-import { mojoToCATLocaleString, mojoToChiaLocaleString } from '@chia/core';
+import type { Wallet } from '@hddcoin/api';
+import { WalletType } from '@hddcoin/api';
+import { mojoToCATLocaleString, mojoToHDDcoinLocaleString } from '@hddcoin/core';
 
 export default function getWalletHumanValue(wallet: Wallet, value: number): string {
   return wallet.type === WalletType.CAT
     ? mojoToCATLocaleString(value)
-    : mojoToChiaLocaleString(value);
+    : mojoToHDDcoinLocaleString(value);
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Flex } from '@chia/core';
+import { Flex } from '@hddcoin/core';
 import {
   Typography,
   Grid,

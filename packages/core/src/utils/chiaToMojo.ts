@@ -1,9 +1,9 @@
 import Big from 'big.js';
 import Unit from '../constants/Unit';
-import chiaFormatter from './chiaFormatter';
+import hddcoinFormatter from './hddcoinFormatter';
 
-export default function chiaToMojo(chia: string | number | Big): number {
-  return chiaFormatter(chia, Unit.CHIA)
+export default function hddcoinToMojo(hddcoin: string | number | Big): number {
+  return hddcoinFormatter(hddcoin, Unit.HDDCOIN)
     .to(Unit.MOJO)
     .toNumber();
 }

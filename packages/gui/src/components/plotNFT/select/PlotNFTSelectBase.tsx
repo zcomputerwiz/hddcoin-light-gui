@@ -12,7 +12,7 @@ import {
   RadioGroup,
   Fee,
   TextField,
-} from '@chia/core';
+} from '@hddcoin/core';
 import {
   Grid,
   FormControl,

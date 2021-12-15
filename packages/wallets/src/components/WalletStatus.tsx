@@ -1,10 +1,10 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Loading, State, StateIndicator } from '@chia/core';
-import { useGetSyncStatusQuery } from '@chia/api-react';
+import { Loading, State, StateIndicator } from '@hddcoin/core';
+import { useGetSyncStatusQuery } from '@hddcoin/api-react';
 import { Typography } from '@material-ui/core';
 import getWalletSyncingStatus from '../utils/getWalletSyncingStatus';
-import { SyncingStatus } from '@chia/api';
+import { SyncingStatus } from '@hddcoin/api';
 import WalletStatusHeight from './WalletStatusHeight';
 
 type Props = {

@@ -1,4 +1,4 @@
-import type { PoolState } from '@chia/api';
+import type { PoolState } from '@hddcoin/api';
 import removeOldPoints from './removeOldPoints';
 
 export default function normalizePoolState(poolState: PoolState): PoolState {

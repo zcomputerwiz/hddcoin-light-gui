@@ -17,8 +17,8 @@ import {
   ListItemText,
   Typography,
 } from '@material-ui/core';
-import { useShowError, Suspender } from '@chia/core';
-import { useAddPlotDirectoryMutation, useRemovePlotDirectoryMutation, useGetPlotDirectoriesQuery } from '@chia/api-react';
+import { useShowError, Suspender } from '@hddcoin/core';
+import { useAddPlotDirectoryMutation, useRemovePlotDirectoryMutation, useGetPlotDirectoriesQuery } from '@hddcoin/api-react';
 import useSelectDirectory from '../../hooks/useSelectDirectory';
 
 type Props = {

@@ -4,7 +4,7 @@ import {
   useGetSyncStatusQuery,
   useSendTransactionMutation,
   useFarmBlockMutation,
-} from '@chia/api-react';
+} from '@hddcoin/api-react';
 import {
   AlertDialog,
   Amount,
@@ -15,10 +15,10 @@ import {
   Flex,
   Card,
   useOpenDialog,
-  chiaToMojo,
+  hddcoinToMojo,
   getTransactionResult,
   useIsSimulator,
-} from '@chia/core';
+} from '@hddcoin/core';
 import isNumeric from 'validator/es/lib/isNumeric';
 import { useForm, useWatch } from 'react-hook-form';
 import {
@@ -97,10 +97,10 @@ export default function WalletSend(props: SendCardProps) {
 
     let address = data.address;
     if (address.includes('colour')) {
-      throw new Error(t`Cannot send chia to coloured address. Please enter a chia address.`);
+      throw new Error(t`Cannot send hddcoin to coloured address. Please enter a hddcoin address.`);
     }
 
-    if (address.slice(0, 12) === 'chia_addr://') {
+    if (address.slice(0, 12) === 'hddcoin_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {
@@ -110,8 +110,8 @@ export default function WalletSend(props: SendCardProps) {
     const response = await sendTransaction({
       walletId,
       address,
-      amount: chiaToMojo(amount),
-      fee: chiaToMojo(fee),
+      amount: hddcoinToMojo(amount),
+      fee: hddcoinToMojo(fee),
       waitForConfirmation: true,
     }).unwrap();
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useNavigate } from 'react-router-dom';
-import { useRefreshPlotsMutation } from '@chia/api-react';
+import { useRefreshPlotsMutation } from '@hddcoin/api-react';
 import { Button, Grid, Typography, Divider } from '@material-ui/core';
-import { CardHero, Flex, Link, useOpenDialog } from '@chia/core';
-import { PlotHero as PlotHeroIcon } from '@chia/icons';
+import { CardHero, Flex, Link, useOpenDialog } from '@hddcoin/core';
+import { PlotHero as PlotHeroIcon } from '@hddcoin/icons';
 import PlotAddDirectoryDialog from '../PlotAddDirectoryDialog';
 
 export default function PlotOverviewHero() {
@@ -32,11 +32,11 @@ export default function PlotOverviewHero() {
           <Typography variant="body1">
             <Trans>
               {
-                'Plots are allocated space on your hard drive used to farm and earn Chia. '
+                'Plots are allocated space on your hard drive used to farm and earn HDDcoin. '
               }
               <Link
                 target="_blank"
-                href="https://github.com/Chia-Network/chia-blockchain/wiki/Network-Architecture"
+                href="https://github.com/HDDcoin-Network/hddcoin-blockchain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>
