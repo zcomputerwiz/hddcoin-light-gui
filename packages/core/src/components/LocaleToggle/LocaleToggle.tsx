@@ -34,7 +34,7 @@ export default function LocaleToggle() {
     handleClose();
 
     openExternal(
-      'https://github.com/HDDcoin-Network/hddcoin-blockchain-gui/tree/main/src/locales/README.md',
+      'https://github.com/HDDcoin-Network/hddcoin-light-gui/tree/main/src/locales/README.md',
     );
   }
 
