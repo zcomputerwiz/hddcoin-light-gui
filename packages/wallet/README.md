@@ -1,5 +1,5 @@
 # hddcoin-blockchain
-![Alt text](https://www.hddcoin.net/img/hddcoin_logo.svg)
+![Alt text](https://www.hddcoin.org/img/hddcoin_logo.svg)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/HDDcoin-Network/hddcoin-blockchain?logo=GitHub)
 

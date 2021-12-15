@@ -1,6 +1,6 @@
 {
   "name": "@hddcoin/wallet",
-  "author": "HDDcoin Network <hello@hddcoin.net> (https://hddcoin.net/)",
+  "author": "HDDcoin Network <hello@hddcoin.org> (https://hddcoin.org/)",
   "description": "Standalone wallet for HDDcoin Blockchain",
   "productName": "HDDcoin Wallet",
   "private": true,

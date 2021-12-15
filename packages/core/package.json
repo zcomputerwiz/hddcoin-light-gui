@@ -1,6 +1,6 @@
 {
   "name": "@hddcoin/core",
-  "author": "HDDcoin Network <hello@hddcoin.net> (https://hddcoin.net/)",
+  "author": "HDDcoin Network <hello@hddcoin.org> (https://hddcoin.org/)",
   "description": "HDDcoin Core Library",
   "productName": "HDDcoin Blockchain",
   "private": true,
