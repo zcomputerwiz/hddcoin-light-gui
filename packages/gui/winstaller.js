@@ -14,7 +14,7 @@ function getInstallerConfig () {
   const outPath = path.join(rootPath, 'release-builds')
 
   return Promise.resolve({
-    appDirectory: path.join(rootPath, 'HDDcoin-win32-x64'),
+    appDirectory: path.join(rootPath, 'HDDcoin Light Wallet-win32-x64'),
     authors: 'HDDcoin Network',
     version: process.env.HDDCOIN_INSTALLER_VERSION,
     noMsi: true,
@@ -23,7 +23,7 @@ function getInstallerConfig () {
     certificateFile: 'win_code_sign_cert.p12',
     certificatePassword: process.env.WIN_CODE_SIGN_PASS,
     exe: 'HDDcoin.exe',
-    setupExe: 'HDDcoinSetup-' + process.env.HDDCOIN_INSTALLER_VERSION + '.exe',
+    setupExe: 'HDDcoinWalletSetup-' + process.env.HDDCOIN_INSTALLER_VERSION + '.exe',
     setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'hddcoin.ico')
   })
 }

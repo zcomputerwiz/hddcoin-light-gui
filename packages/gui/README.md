@@ -9,7 +9,7 @@ information on this project.
 
 ## Installing
 
-This is the GUI for hddcoin-blockchain. It is built into distribution packages in the hddcoin-blockchain repository.
+This is the GUI for hddcoin-wallet. It is built into distribution packages in the hddcoin-blockchain repository.
 
 Install instructions are available in the
 [INSTALL](https://github.com/HDDcoin-Network/hddcoin-blockchain/wiki/INSTALL)

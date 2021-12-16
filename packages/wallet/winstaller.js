@@ -15,7 +15,7 @@ function getInstallerConfig () {
 
   return Promise.resolve({
     name: "hddcoin-blockchain",
-    appDirectory: path.join(rootPath, 'HDDcoin-win32-x64'),
+    appDirectory: path.join(rootPath, 'HDDcoin Light Wallet-win32-x64'),
     authors: 'HDDcoin Network',
     version: process.env.HDDCOIN_INSTALLER_VERSION,
     noMsi: true,
@@ -23,8 +23,8 @@ function getInstallerConfig () {
     outputDirectory: path.join(outPath, 'windows-installer'),
     certificateFile: 'win_code_sign_cert.p12',
     certificatePassword: process.env.WIN_CODE_SIGN_PASS,
-    exe: 'hddcoin-blockchain.exe',
-    setupExe: 'HDDcoinSetup-' + process.env.HDDCOIN_INSTALLER_VERSION + '.exe',
+    exe: 'hddcoin-wallet.exe',
+    setupExe: 'HDDcoinWalletSetup-' + process.env.HDDCOIN_INSTALLER_VERSION + '.exe',
     setupIcon: path.join(rootPath, 'src', 'assets', 'img', 'hddcoin.ico')
   })
 }
