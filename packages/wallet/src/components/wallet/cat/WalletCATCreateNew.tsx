@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@chia/core';
+import { AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@hddcoin/core';
 import { Box, Grid } from '@material-ui/core';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router';
-import { chia_to_mojo } from '../../../util/chia';
+import { hddcoin_to_byte } from '../../../util/hddcoin';
 
 type CreateCATWalletData = {
   amount: string;
@@ -55,12 +55,12 @@ export default function WalletCATCreateNew() {
       }
       */
 
-      const amountMojos = chia_to_mojo(amount || '0');
-      const feeMojos = chia_to_mojo(fee || '0');
+      const amountBytes = hddcoin_to_byte(amount || '0');
+      const feeBytes = hddcoin_to_byte(fee || '0');
 
 
       /*
-      const response = await dispatch(create_cc_action(amountMojos, feeMojos));
+      const response = await dispatch(create_cc_action(amountBytes, feeBytes));
       if (response && response.data && response.data.success === true) {
         history.push(`/dashboard/wallets/${response.data.wallet_id}`);
       }
@@ -74,7 +74,7 @@ export default function WalletCATCreateNew() {
     <Form methods={methods} onSubmit={handleSubmit}>
       <Flex flexDirection="column" gap={3}>
         <Back variant="h5">
-          <Trans>Create New Chia Asset Token Wallet</Trans>
+          <Trans>Create New HDDcoin Asset Token Wallet</Trans>
         </Back>
         <Card>
           <Grid spacing={2} container>

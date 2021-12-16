@@ -15,7 +15,7 @@ import {
   FormatLargeNumber,
   Link,
   ConfirmDialog,
-} from '@chia/core';
+} from '@hddcoin/core';
 import {
   Box,
   Button,
@@ -31,7 +31,7 @@ import {
   Link as LinkIcon,
   Payment as PaymentIcon,
 } from '@material-ui/icons';
-import { Plot as PlotIcon } from '@chia/icons';
+import { Plot as PlotIcon } from '@hddcoin/icons';
 import type PlotNFT from '../../types/PlotNFT';
 import PlotNFTName from './PlotNFTName';
 import PlotNFTStatus from './PlotNFTState';
@@ -39,7 +39,7 @@ import usePlotNFTDetails from '../../hooks/usePlotNFTDetails';
 import useOpenDialog from '../../hooks/useOpenDialog';
 import PoolJoin from '../pool/PoolJoin';
 import PoolAbsorbRewards from '../pool/PoolAbsorbRewards';
-import { mojo_to_chia } from '../../util/chia';
+import { byte_to_hddcoin } from '../../util/hddcoin';
 import { deleteUnconfirmedTransactions } from '../../modules/incoming';
 import PlotNFTGraph from './PlotNFTGraph';
 import PlotNFTGetPoolLoginLinkDialog from './PlotNFTGetPoolLoginLinkDialog';
@@ -150,7 +150,7 @@ export default function PlotNFTCard(props: Props) {
       label: <Trans>Unclaimed Rewards</Trans>,
       value: (
         <UnitFormat
-          value={mojo_to_chia(BigInt(balance))}
+          value={byte_to_hddcoin(BigInt(balance))}
           state={State.SUCCESS}
         />
       ),

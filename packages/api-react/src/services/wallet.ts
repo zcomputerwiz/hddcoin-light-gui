@@ -1,10 +1,10 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import { Wallet, CAT, WalletType } from '@chia/api';
-import chiaLazyBaseQuery from '../chiaLazyBaseQuery';
+import { Wallet, CAT, WalletType } from '@hddcoin/api';
+import hddcoinLazyBaseQuery from '../hddcoinLazyBaseQuery';
 import type Transaction from '../@types/Transaction';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 
-const baseQuery = chiaLazyBaseQuery({
+const baseQuery = hddcoinLazyBaseQuery({
   service: Wallet,
 });
 

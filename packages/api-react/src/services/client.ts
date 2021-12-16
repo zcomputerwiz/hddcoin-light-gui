@@ -1,8 +1,8 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import chiaLazyBaseQuery from '../chiaLazyBaseQuery';
-import { ConnectionState, ServiceName } from '@chia/api';
+import hddcoinLazyBaseQuery from '../hddcoinLazyBaseQuery';
+import { ConnectionState, ServiceName } from '@hddcoin/api';
 
-const baseQuery = chiaLazyBaseQuery();
+const baseQuery = hddcoinLazyBaseQuery();
 
 export const clientApi = createApi({
   reducerPath: 'clientApi',

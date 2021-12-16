@@ -5,11 +5,11 @@ import {
   FormatBytes,
   Loading,
   Table,
-} from '@chia/core';
+} from '@hddcoin/core';
 import { Tooltip } from '@material-ui/core';
 import { service_connection_types } from '../../util/service_names';
 import Connection from '../../types/Connection';
-import { useGetWalletConnectionsQuery } from '@chia/api-react';
+import { useGetWalletConnectionsQuery } from '@hddcoin/api-react';
 
 const cols = [
   {

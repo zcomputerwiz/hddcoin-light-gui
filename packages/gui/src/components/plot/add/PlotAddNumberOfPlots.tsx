@@ -9,7 +9,7 @@ import {
   Flex,
   Checkbox,
   TooltipIcon,
-} from '@chia/core';
+} from '@hddcoin/core';
 import {
   Grid,
   FormControl,

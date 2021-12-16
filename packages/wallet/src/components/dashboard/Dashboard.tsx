@@ -8,8 +8,8 @@ import {
   Flex,
   Logo,
   ToolbarSpacing,
-} from '@chia/core';
-import { useAppDispatch, walletApi } from '@chia/api-react';
+} from '@hddcoin/core';
+import { useAppDispatch, walletApi } from '@hddcoin/api-react';
 import { t } from '@lingui/macro';
 import { ExitToApp as ExitToAppIcon } from '@material-ui/icons';
 import { defaultLocale, locales } from '../../config/locales';

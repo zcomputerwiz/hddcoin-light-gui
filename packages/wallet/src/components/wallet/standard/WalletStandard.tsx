@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Flex } from '@chia/core';
+import { Flex } from '@hddcoin/core';
 import WalletHistory from '../WalletHistory';
 import WalletStandardCards from './WalletStandardCards';
 import WalletReceiveAddress from '../WalletReceiveAddress';
@@ -20,7 +20,7 @@ export default function StandardWallet(props: StandardWalletProps) {
     <Flex flexDirection="column" gap={1}>
       <WalletHeader
         walletId={walletId}
-        title={<Trans>Chia Wallet</Trans>}
+        title={<Trans>HDDcoin Wallet</Trans>}
       />
 
       <Flex flexDirection="column" gap={3}>

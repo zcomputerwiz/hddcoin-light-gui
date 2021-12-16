@@ -1,9 +1,9 @@
 import type Wallet from '../types/Wallet';
 import WalletType from '../constants/WalletType';
-import { mojo_to_colouredcoin_string, mojo_to_chia_string } from './chia';
+import { byte_to_colouredcoin_string, byte_to_hddcoin_string } from './hddcoin';
 
 export default function getWalletHumanValue(wallet: Wallet, value: number): string {
   return wallet.type === WalletType.CAT
-    ? mojo_to_colouredcoin_string(value)
-    : mojo_to_chia_string(value);
+    ? byte_to_colouredcoin_string(value)
+    : byte_to_hddcoin_string(value);
 }

@@ -6,12 +6,12 @@ import React, {
 } from 'react';
 import { t, Trans } from '@lingui/macro';
 import { useForm } from 'react-hook-form';
-import { ButtonLoading, Loading, Flex, Form, FormBackButton } from '@chia/core';
+import { ButtonLoading, Loading, Flex, Form, FormBackButton } from '@hddcoin/core';
 import PlotNFTSelectBase from './PlotNFTSelectBase';
 import normalizeUrl from '../../../util/normalizeUrl';
 import getPoolInfo from '../../../util/getPoolInfo';
 import InitialTargetState from '../../../types/InitialTargetState';
-import { chia_to_mojo } from '../../../util/chia';
+import { hddcoin_to_byte } from '../../../util/hddcoin';
 import useStandardWallet from '../../../hooks/useStandardWallet';
 import PlotNFTSelectFaucet from './PlotNFTSelectFaucet';
 
@@ -43,10 +43,10 @@ async function prepareSubmitData(data: FormData): SubmitData {
     initialTargetState.relative_lock_height = relative_lock_height;
   }
 
-  const feeMojos = chia_to_mojo(fee);
+  const feeBytes = hddcoin_to_byte(fee);
 
   return {
-    fee: feeMojos,
+    fee: feeBytes,
     initialTargetState,
   };
 }

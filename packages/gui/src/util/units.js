@@ -1,21 +1,21 @@
 const units = {
-  chia: 1,
-  mojo: 1 / 1e12,
+  hddcoin: 1,
+  byte: 1 / 1e12,
   colouredcoin: 1 / 1e9,
 };
 
 const aliases = {
-  chia: ['ch', 'chia', 'Chia'],
-  mojo: ['mj', 'mojo'],
+  hddcoin: ['ch', 'hddcoin', 'HDDcoin'],
+  byte: ['mj', 'byte'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
 const display = {
-  chia: {
+  hddcoin: {
     format: '{amount} CH',
     fractionDigits: 12,
   },
-  mojo: {
+  byte: {
     format: '{amount} MJ',
     fractionDigits: 0,
   },

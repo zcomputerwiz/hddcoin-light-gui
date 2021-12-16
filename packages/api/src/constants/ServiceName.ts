@@ -1,11 +1,11 @@
 enum ServiceName {
-  WALLET = 'chia_wallet',
-  FULL_NODE = 'chia_full_node',
-  FARMER = 'chia_farmer',
-  HARVESTER = 'chia_harvester',
-  SIMULATOR = 'chia_full_node_simulator',
+  WALLET = 'hddcoin_wallet',
+  FULL_NODE = 'hddcoin_full_node',
+  FARMER = 'hddcoin_farmer',
+  HARVESTER = 'hddcoin_harvester',
+  SIMULATOR = 'hddcoin_full_node_simulator',
   DAEMON = 'daemon',
-  PLOTTER = 'chia plots create',
+  PLOTTER = 'hddcoin plots create',
   EVENTS = 'wallet_ui',
 }
 
