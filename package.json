@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "clean": "lerna clean",
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --nohoist packages/wallet",
     "version:major": "lerna version major",
     "version:minor": "lerna version minor",
     "version:patch": "lerna version patch",
@@ -17,7 +17,7 @@
     "dev:gui": "lerna run dev --scope @hddcoin/gui --stream",
     "dev:wallet": "lerna run dev --scope @hddcoin/wallet --stream",
     "wallet": "npm run start:wallet",
-    "electron": "npm run start:gui",
+    "electron": "npm run start:wallet",
     "locale:extract": "lerna run locale:extract",
     "audit": "lerna-audit --no-fix",
     "audit:fix": "lerna-audit"
