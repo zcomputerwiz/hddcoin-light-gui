@@ -14,7 +14,7 @@ function getInstallerConfig () {
   const outPath = path.join(rootPath, 'release-builds')
 
   return Promise.resolve({
-    name: "hddcoin-blockchain",
+    name: "hddcoin-wallet",
     appDirectory: path.join(rootPath, 'HDDcoin Light Wallet-win32-x64'),
     authors: 'HDDcoin Network',
     version: process.env.HDDCOIN_INSTALLER_VERSION,
