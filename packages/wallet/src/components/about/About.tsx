@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://hddcoin.net';
+const url = 'https://hddcoin.org';
 
 type Props = {
   version: string;

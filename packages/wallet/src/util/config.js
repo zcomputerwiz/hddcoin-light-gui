@@ -9,7 +9,7 @@ const sleep = sleepData.default;
 
 // defaults used in case of error point to the localhost daemon & its certs
 let self_hostname = 'localhost';
-// global.daemon_rpc_ws = `wss://${self_hostname}:55400`;
+// global.daemon_rpc_ws = `wss://${self_hostname}:25401`;
 // global.cert_path = 'config/ssl/daemon/private_daemon.crt';
 // global.key_path = 'config/ssl/daemon/private_daemon.key';
 

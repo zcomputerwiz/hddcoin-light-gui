@@ -1,6 +1,6 @@
 {
   "name": "@hddcoin/gui",
-  "author": "HDDcoin Network <hello@hddcoin.net> (https://hddcoin.net/)",
+  "author": "HDDcoin Network <hello@hddcoin.org> (https://hddcoin.org/)",
   "description": "GUI for HDDcoin Blockchain",
   "productName": "HDDcoin Blockchain",
   "private": true,

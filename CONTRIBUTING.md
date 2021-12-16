@@ -9,7 +9,7 @@ This repo includes the code for the HDDcoin GUI in electron/react and TypeScript
 It is an input to the [hddcoin-blockchain](https://github.com/HDDcoin-Network/hddcoin-blockchain) repository which also includes a verifiable delay function implementation that it imports from the [hddcoinvdf repo](https://github.com/HDDcoin-Network/hddcoinvdf) (in c/c++), and a proof of space implementation that it imports from the [hddcoinpos repo](https://github.com/HDDcoin-Network/hddcoinpos). BLS signatures are imported from the [bls-signatures repo](https://github.com/HDDcoin-Network/bls-signatures) as blspy. There is an additional dependency on the [hddcoinbip158 repo](https://github.com/HDDcoin-Network/hddcoinbip158).
 For major platforms, binary and source wheels are shipped to PyPI from each dependent repo and then hddcoin-blockchain can pip install those from PyPI or they can be prepackaged as is done for the Windows and MacOS installer. On unsupported platforms, pip will fall back to the source distributions to be compiled locally.
 
-If you want to learn more about this project, read the [wiki](https://github.com/HDDcoin-Network/hddcoin-blockchain/wiki), or check out the [green paper](https://www.hddcoin.net/assets/HDDcoinGreenPaper.pdf).
+If you want to learn more about this project, read the [wiki](https://github.com/HDDcoin-Network/hddcoin-blockchain/wiki), or check out the [green paper](https://www.hddcoin.org/assets/HDDcoinGreenPaper.pdf).
 
 ## Contributions
 
